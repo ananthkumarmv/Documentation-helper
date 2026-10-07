@@ -1,0 +1,38 @@
+[project]
+name = "documentation-helper"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "beautifulsoup4",
+    "black",
+    "tiktoken",
+    "openai",
+    "unstructured",
+    "nltk",
+    "fastapi",
+    "jinja2",
+    "uvicorn",
+    "streamlit",
+    "streamlit-chat",
+    "tqdm",
+    "isort",
+    "langchainhub",
+    "firecrawl-py",
+    "langchain-community",
+    "langchain-huggingface",
+    "langsmith",
+    "pillow",
+    "langchain-tavily",
+    "langchain-pinecone",
+    "langchain-ollama",
+    "certifi",
+    "langchain-chroma",
+    "python-dotenv",
+    "sentence-transformers>=6.1.0",
+]
+
+[dependency-groups]
+dev = ["ipykernel"]
+
+[tool.uv]
+prerelease = "allow"
