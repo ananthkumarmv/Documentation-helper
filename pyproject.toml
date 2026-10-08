@@ -29,6 +29,8 @@ dependencies = [
     "langchain-chroma",
     "python-dotenv",
     "sentence-transformers>=6.1.0",
+    "pandas>=3.1.0rc0",
+    "torchvision>=0.29.1",
 ]
 
 [dependency-groups]
